@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>SpringForAzure</artifactId>
+	<artifactId>spring-boot-azure</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringForAzure</name>
 	<description>Demo project for Spring Boot</description>
@@ -47,6 +47,9 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+					<layers>
+            <enabled>true</enabled>
+     			   </layers>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
