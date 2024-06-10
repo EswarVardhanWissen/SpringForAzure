@@ -1,6 +1,6 @@
 # SpringForAzure
 
-# To login into Docker from CLI
+## To login into Docker from CLI
 $ Docker login
 
 # To Build the Docker image
